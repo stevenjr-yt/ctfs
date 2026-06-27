@@ -217,8 +217,7 @@ CREATE TABLE IF NOT EXISTS public.notifications (
   created_at TIMESTAMP WITH TIME ZONE DEFAULT now()
 );
 
-ALTER PUBLICATION supabase_realtime
-ADD TABLE public.notifications;
+
 
 
 -- solves.sql
@@ -237,8 +236,7 @@ CREATE TABLE IF NOT EXISTS public.solves (
 CREATE INDEX IF NOT EXISTS idx_solves_challenge_id ON public.solves(challenge_id);
 CREATE INDEX IF NOT EXISTS idx_solves_created_at ON public.solves(created_at);
 
-ALTER PUBLICATION supabase_realtime
-ADD TABLE public.solves;
+
 
 
 -- solves_nonactive.sql
