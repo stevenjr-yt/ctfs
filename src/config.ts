@@ -55,7 +55,7 @@ export const APP = {
   eventMainLabel: "DCSC CTF",
   // Gambar untuk "Main/Featured" event (boleh URL external atau path public). Contoh:
   // 'https://example.com/banner.png' atau '/images/banner.png'
-  eventMainImageUrl: "https://raw.githubusercontent.com/nxctf/assets/refs/heads/main/event/active_nxctf.png",
+  eventMainImageUrl: "https://raw.githubusercontent.com/ariafatah0711/fgte_s1/refs/heads/main/img/FGTE_2026.png",
   // Fallback image untuk event yang tidak punya image_url.
   // eventFallbackImageUrl: "https://raw.githubusercontent.com/ariafatah0711/fgte_s1/refs/heads/main/img/FGTE_Blank.png",
   eventFallbackImageUrl: "",

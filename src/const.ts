@@ -1,7 +1,7 @@
 export const NXCTF = {
   nxctf_title: 'NXCTF',
   nxctf_url: 'https://nxctf.my.id',
-  nxctf_logo: 'https://raw.githubusercontent.com/nxctf/assets/refs/heads/main/logo/logo-no-bg.svg',
+  nxctf_logo: '/fgte.png',
   nxctf_discord: 'https://discord.gg/5etKks6aQQ',
   nxctf_donation: 'https://saweria.co/nxctf',
   nxctf_github: 'https://github.com/nxctf/nxctf',
@@ -42,7 +42,7 @@ aaaaaaaaaaaaaaaaaa
 
 bbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-![gambar](https://raw.githubusercontent.com/nxctf/assets/refs/heads/main/event/active_nxctf.png)
+![gambar](https://raw.githubusercontent.com/ariafatah0711/fgte_s1/refs/heads/main/img/FGTE_2026.png)
 
 if ur want use link [link](https://nxctf.my.id)
 
