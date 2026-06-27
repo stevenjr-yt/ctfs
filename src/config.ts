@@ -1,10 +1,10 @@
 import { LINKS, YEAR, DIFFICULTY_STYLES, NXCTF } from './const'
 
 export const APP = {
-  shortName: "NXCTF",
-  fullName: "NXCTF",
+  shortName: "DCSC",
+  fullName: "Darmajaya Cyber Security Club",
   description: "Aplikasi CTF minimalis dengan Next.js dan Supabase",
-  flagFormat: "NXCTF{your_flag_here}",
+  flagFormat: "DCSC{your_flag_here}",
 
   challengeCategories: [
     "Intro",
@@ -34,7 +34,7 @@ export const APP = {
   // Base URL (ambil dari env kalau ada). Prefer changing NEXT_PUBLIC_SITE_URL in .env.local.
   baseUrl: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
   image_icon: "favicon.ico",
-  image_logo: "/logo.svg",
+  image_logo: "/fgte.png",
   image_preview: "og-image.png",
 
   // Turnstile aktif otomatis kalau site key ada di env.
@@ -52,7 +52,7 @@ export const APP = {
   hideEventMain: false, // enable / disable hiding "Main Event" in event selector (useful for single event nxctf)
   // Label untuk challenges tanpa event_id (event_id = NULL). Jika kosong, fallback ke "Main".
 
-  eventMainLabel: "main",
+  eventMainLabel: "DCSC CTF",
   // Gambar untuk "Main/Featured" event (boleh URL external atau path public). Contoh:
   // 'https://example.com/banner.png' atau '/images/banner.png'
   eventMainImageUrl: "https://raw.githubusercontent.com/nxctf/assets/refs/heads/main/event/active_nxctf.png",
