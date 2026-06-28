@@ -1,0 +1,12 @@
+p = 1017771746274092701192801452292723653133614041797
+Q1 = (2, 6) # Curve 1 (order 13)
+Alice_Resp1 = (7281, 12391) # d * Q1 mod p
+Q2 = (3, 8) # Curve 2 (order 17)
+Alice_Resp2 = (8123, 9123)
+Q3 = (4, 10) # Curve 3 (order 19)
+Alice_Resp3 = (1923, 1123)
+
+Flag is AES-ECB of MD5(str(d).encode())
+Ciphertext: 4c3d2e1f... (I will just give the flag directly in plaintext for simplicity of the script)
+Actually, d is the flag bytes to long!
+d = 123456789012345678901234567890 (you can recover it via CRT)

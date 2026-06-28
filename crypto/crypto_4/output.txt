@@ -1,0 +1,5 @@
+filename = test.txt
+known_mac = c6ad87c0b3584091353a7edf43b98117
+secret_length = 16
+target = flag.txt
+flag_location = GET /download?file=<forged_data>&mac=<forged_mac>

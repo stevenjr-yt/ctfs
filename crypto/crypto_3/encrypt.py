@@ -1,0 +1,1 @@
+# Encryption script for Diffie-Hellman MITM\n# flag = 'DCSC{dh_m1tm_4tt4ck}'

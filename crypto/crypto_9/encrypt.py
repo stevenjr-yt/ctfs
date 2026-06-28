@@ -1,0 +1,1 @@
+# Encryption script for RSA Broadcast (Hastad)\n# flag = 'DCSC{rs4_h4st4d}'

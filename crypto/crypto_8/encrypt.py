@@ -1,0 +1,1 @@
+# Encryption script for LCG Predictor\n# flag = 'DCSC{lcg_pr3d1ct0r}'

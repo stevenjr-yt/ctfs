@@ -1,0 +1,1 @@
+# Encryption script for Hash Length Extension\n# flag = 'DCSC{h4sh_l3ngth_3xt}'

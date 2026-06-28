@@ -1,0 +1,1 @@
+# Encryption script for Shamir's Secret Sharing\n# flag = 'DCSC{sh4m1r_s3cr3t}'

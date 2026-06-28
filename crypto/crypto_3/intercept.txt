@@ -1,0 +1,6 @@
+Alice -> Bob: p = 28073539281242031757, g = 5, A = 13958105713401
+Bob -> Alice: B = 28073539281242031757 (Wait, Bob sent B = p ?)
+Alice computes shared secret S = B^a mod p.
+Alice encrypts flag with key = MD5(str(S).encode()).
+Alice -> Bob: IV = 31323334353637383930616263646566
+Ciphertext = 9a20d43a6d7fcfb09b5756bc3db64d1f56860dff5733fcd9891c6e287b3b4822

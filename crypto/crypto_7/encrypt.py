@@ -1,0 +1,1 @@
+# Encryption script for Custom Feistel Cipher\n# flag = 'DCSC{f31st3l_c1ph3r}'

@@ -1,0 +1,1 @@
+# Encryption script for RSA Coppersmith\n# flag = 'DCSC{rs4_c0pp3rsm1th}'

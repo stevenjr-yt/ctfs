@@ -1,0 +1,1 @@
+# Encryption script for Elliptic Curve (ECC)\n# flag = 'DCSC{3cc_1nv4l1d_curv3}'

@@ -1,0 +1,71 @@
+services:
+
+  pwn_1:
+    build: ./pwn_1
+    ports:
+      - "10001:10000"
+    restart: always
+    read_only: true
+
+  pwn_2:
+    build: ./pwn_2
+    ports:
+      - "10002:10000"
+    restart: always
+    read_only: true
+
+  pwn_3:
+    build: ./pwn_3
+    ports:
+      - "10003:10000"
+    restart: always
+    read_only: true
+
+  pwn_4:
+    build: ./pwn_4
+    ports:
+      - "10004:10000"
+    restart: always
+    read_only: true
+
+  pwn_5:
+    build: ./pwn_5
+    ports:
+      - "10005:10000"
+    restart: always
+    read_only: true
+
+  pwn_6:
+    build: ./pwn_6
+    ports:
+      - "10006:10000"
+    restart: always
+    read_only: true
+
+  pwn_7:
+    build: ./pwn_7
+    ports:
+      - "10007:10000"
+    restart: always
+    read_only: true
+
+  pwn_8:
+    build: ./pwn_8
+    ports:
+      - "10008:10000"
+    restart: always
+    read_only: true
+
+  pwn_9:
+    build: ./pwn_9
+    ports:
+      - "10009:10000"
+    restart: always
+    read_only: true
+
+  pwn_10:
+    build: ./pwn_10
+    ports:
+      - "10010:10000"
+    restart: always
+    read_only: true
